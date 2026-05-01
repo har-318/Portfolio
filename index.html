@@ -24,36 +24,41 @@
   </nav>
 
   <!-- Hero -->
-  <section class="min-h-screen flex items-center justify-center text-center px-6 pt-24">
-    <div>
-      <h2 class="text-4xl md:text-6xl font-bold">
-        Aspiring <span class="text-cyan-400">Software Developer</span>
+ <section class="min-h-screen flex items-center justify-center text-center px-6 pt-24">
+    <div class="animate-pulse">
+      <h2 class="text-4xl md:text-6xl font-bold leading-tight">
+        Aspiring <span class="text-cyan-400">Software Developer</span> 
       </h2>
-      <h3 class="text-xl mt-2 text-gray-300">
+      <h3 class="text-xl md:text-2xl mt-2 text-gray-300">
         Java Developer | Python & C | AI | Data Analytics | Cloud Enthusiast
       </h3>
       <p class="mt-4 text-gray-400 max-w-2xl mx-auto">
-        Passionate about building intelligent systems, solving real-world problems, and delivering data-driven solutions.
+        Passionate about building intelligent systems, solving real-world problems, and delivering data-driven solutions using Java, Python , C , AI and modern web technologies.
       </p>
+
+      <div class="mt-6 flex justify-center gap-4">
+        <a href="#projects" class="px-6 py-2 bg-cyan-500 rounded-full hover:bg-cyan-600 transition">View Projects</a>
+        <a href="#contact" class="px-6 py-2 border border-cyan-400 rounded-full hover:bg-cyan-500/20 transition">Contact</a>
+      </div>
     </div>
   </section>
 
   <!-- About -->
   <section id="about" class="py-16 px-8 max-w-4xl mx-auto">
     <h3 class="text-3xl font-bold text-cyan-400 mb-4">About Me</h3>
-    <p class="text-gray-300">
-      I am a highly motivated individual passionate about software development, AI/ML, and data analytics.
+    <p class="text-gray-300 leading-relaxed">
+      I am a highly motivated individual passionate about software development, AI/ML, and data analytics. I enjoy building real-world solutions, solving problems, and continuously improving my technical skills through projects and internships.
     </p>
   </section>
 
   <!-- Skills -->
   <section id="skills" class="py-16 px-8 bg-black/30">
     <h3 class="text-3xl font-bold text-center text-cyan-400 mb-10">Skills</h3>
-    <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-      <div><b>Programming:</b> Java, Python, C, JavaScript</div>
-      <div><b>Web:</b> React.js, Node.js</div>
-      <div><b>Data:</b> Power BI, SQL</div>
-      <div><b>AI/Cloud:</b> ML, Azure</div>
+    <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto text-gray-200">
+      <div><h4 class="font-bold text-white">Programming</h4><p>Java,Python,C,JavaScript</p></div>
+      <div><h4 class="font-bold text-white">Web Technology</h4><p>React.js, Node.js</p></div>
+      <div><h4 class="font-bold text-white">Data</h4><p>Power BI, SQL</p></div>
+      <div><h4 class="font-bold text-white">AI/Cloud</h4><p>Machine Learning, Azure,Microsoft Copilot,Cloud Administration</p></div>
     </div>
   </section>
 
@@ -61,12 +66,17 @@
   <section id="internships" class="py-16 px-8">
     <h3 class="text-3xl font-bold text-center text-cyan-400 mb-10">Internships</h3>
     <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-      <div class="bg-gray-800 p-5 rounded-xl">
-        Microsoft – Power BI Internship
+
+      <div class="bg-gray-800 p-5 rounded-xl shadow hover:scale-105 transition">
+        <h4 class="text-cyan-300 font-bold">Microsoft – Power BI Internship</h4>
+        <p class="text-gray-300 mt-2">Worked on data visualization, dashboards, and business analytics using Power BI.</p>
       </div>
-      <div class="bg-gray-800 p-5 rounded-xl">
-        Test Yantra – Web Intern
+
+      <div class="bg-gray-800 p-5 rounded-xl shadow hover:scale-105 transition">
+        <h4 class="text-cyan-300 font-bold">Test Yantra – Web Intern</h4>
+        <p class="text-gray-300 mt-2">Learned frontend & backend basics and real-world web application flow.</p>
       </div>
+
     </div>
   </section>
 
@@ -74,12 +84,62 @@
   <section id="projects" class="py-16 px-8 bg-black/30">
     <h3 class="text-3xl font-bold text-center text-cyan-400 mb-10">Projects</h3>
     <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-      <div class="bg-gray-800 p-5 rounded-xl">Music App</div>
-      <div class="bg-gray-800 p-5 rounded-xl">Power BI Dashboard</div>
+
+      <div class="bg-gray-800 p-5 rounded-xl shadow hover:scale-105 transition">
+        <h4 class="text-white font-bold">Music Application</h4>
+        <p class="text-gray-300 mt-2"><b>Problem:</b> Lack of a simple and user-friendly music management system.</p>
+        <p class="text-gray-300"><b>Solution:</b> Developed a responsive music application with playlist creation and navigation features using web technologies.</p>
+        <p class="text-gray-300"><b>Result:</b> Improved user experience with smooth music browsing and efficient playlist handling.</p>
+      </div>
+
+      <div class="bg-gray-800 p-5 rounded-xl shadow hover:scale-105 transition">
+        <h4 class="text-white font-bold">Power BI Sales Analysis</h4>
+        <p class="text-gray-300 mt-2"><b>Problem:</b> Difficulty in analyzing and interpreting raw sales data for decision making.</p>
+        <p class="text-gray-300"><b>Solution:</b> Built an interactive Power BI dashboard with KPIs, filters, and visual insights.</p>
+        <p class="text-gray-300"><b>Result:</b> Enabled better data-driven decisions through clear visualization of sales trends and performance metrics.</p>
+      </div>
+
     </div>
   </section>
 
-  <!-- Research -->
+
+  <!-- Certifications -->
+  <section id="certifications" class="py-16 px-8">
+    <h3 class="text-3xl font-bold text-center text-cyan-400 mb-10">Certifications</h3>
+    <ul class="max-w-4xl mx-auto space-y-3 text-gray-200">
+
+      <li class="bg-gray-800 p-3 rounded hover:bg-gray-700">
+        Python for Data Science - <a class="text-cyan-400 hover:underline" href="Python for Data Science.pdf">View Certificate</a>
+      </li>
+
+      <li class="bg-gray-800 p-3 rounded hover:bg-gray-700">
+        Power BI & Data Visualization - <a class="text-cyan-400 hover:underline" href="certificate (1).pdf">View Certificate</a>
+      </li>
+
+      <li class="bg-gray-800 p-3 rounded hover:bg-gray-700">
+        Machine Learning Intro - <a class="text-cyan-400 hover:underline" href="Introduction to Machine Learning.pdf">View Certificate</a>
+      </li>
+
+      <li class="bg-gray-800 p-3 rounded hover:bg-gray-700">
+        AI & ML Fundamentals - <a class="text-cyan-400 hover:underline" href="certificate (4).pdf">View Certificate</a>
+      </li>
+
+      <li class="bg-gray-800 p-3 rounded hover:bg-gray-700">
+        Microsoft Azure - <a class="text-cyan-400 hover:underline" href="certificate (2).pdf">View Certificate</a>
+      </li>
+
+      <li class="bg-gray-800 p-3 rounded hover:bg-gray-700">
+        Cloud Engineering - <a class="text-cyan-400 hover:underline" href="certificate (3).pdf">View Certificate</a>
+      </li>
+
+      <li class="bg-gray-800 p-3 rounded hover:bg-gray-700">
+        Web Development - <a class="text-cyan-400 hover:underline" href="Screenshot 2026-05-01 030907.pdf">View Certificate</a>
+      </li>
+
+    </ul>
+  </section>
+
+ <!-- Research -->
   <section id="research" class="py-16 px-8">
     <h3 class="text-3xl font-bold text-center text-cyan-400 mb-10">Research Papers</h3>
 
@@ -90,17 +150,17 @@
           EV Range Prediction using AI ▼
         </button>
         <div id="p1" class="hidden mt-3">
-          <p>Predict EV range using ML.</p>
+          <p>Electric Vehicle (EV) range prediction using Machine Learning, specifically Linear Regression, involves estimating how far an EV can travel on a single charge by analyzing key factors such as battery capacity, speed, temperature, driving behavior, and road conditions. The model learns the relationship between these input variables and the output (range) using historical data, enabling it to make accurate predictions for new inputs. This approach helps address range anxiety by providing reliable distance estimates, improves route planning, and supports efficient battery usage. The outcome of this model is a reasonably accurate and fast prediction system that enhances user decision-making, optimizes energy efficiency, and demonstrates the practical application of AI in intelligent transportation systems.</p>
           <a href="EV_paper.pdf">View PDF</a>
         </div>
       </div>
 
       <div class="bg-gray-800 p-5 rounded-xl">
         <button onclick="togglePaper('p2')" class="w-full text-left font-bold">
-          Physics Informed Neural Networks ▼
+          Physics Informed Neural Networks for accurate forecasting of hybrid solar-wind power generation  ▼
         </button>
         <div id="p2" class="hidden mt-3">
-          <p>AI + Physics model.</p>
+          <p>This paper proposes a Physics-Informed Neural Network (PINN) framework for accurate forecasting of hybrid solar-wind power generation. Unlike traditional machine learning models, the proposed approach integrates physical laws such as the Beer-Lambert law for solar radiation, cubic wind power relationships, and energy conservation principles into the neural network training process. This ensures that predictions are not only accurate but also physically consistent. The model was tested using real-world data from a 100 MW hybrid power plant in Tamil Nadu and achieved improved accuracy compared to conventional methods. Additionally, the framework incorporates uncertainty quantification techniques to provide reliable prediction intervals. The results demonstrate that PINNs significantly reduce unrealistic predictions, enhance generalization under varying conditions, and offer a robust solution for renewable energy forecasting and grid management.</p>
           <a href="Physics_Informed_Neural_Networks.pdf">View PDF</a>
         </div>
       </div>
@@ -108,24 +168,20 @@
     </div>
   </section>
 
-  <!-- Certifications -->
-  <section id="certifications" class="py-16 px-8">
-    <h3 class="text-3xl text-center text-cyan-400 mb-10">Certifications</h3>
-    <ul class="max-w-4xl mx-auto space-y-3">
-      <li>Python - <a href="#">View</a></li>
-      <li>Power BI - <a href="#">View</a></li>
-    </ul>
-  </section>
-
+  
   <!-- Contact -->
   <section id="contact" class="py-16 px-8 text-center">
-    <h3 class="text-3xl text-cyan-400 mb-6">Contact</h3>
-    <p>Email: sriharinimuthukumar2005@gmail.com</p>
-    <p>GitHub: github.com/har-318</p>
-    <p>LinkedIn: linkedin.com/in/sri-harini</p>
+    <h3 class="text-3xl font-bold text-cyan-400 mb-6">Contact</h3>
+    <p>Email: <span class="text-gray-300">sriharinimuthukumar2005@gmail.com</span></p>
+    <p>GitHub: <span class="text-gray-300">https://github.com/har-318</span></p>
+    <p>LinkedIn: <span class="text-gray-300">https://www.linkedin.com/in/sri-harini-m-4b31a5341</span></p>
   </section>
 
-  <!-- Script -->
+  <footer class="text-center p-4 text-gray-500">
+    © 2026 Sri Harini M
+  </footer>
+
+    <!-- Script -->
   <script>
     function togglePaper(id) {
       const el = document.getElementById(id);
