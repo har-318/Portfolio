@@ -17,47 +17,43 @@
       <a href="#skills" class="hover:text-cyan-400">Skills</a>
       <a href="#internships" class="hover:text-cyan-400">Internships</a>
       <a href="#projects" class="hover:text-cyan-400">Projects</a>
+      <a href="#research" class="hover:text-cyan-400">Research</a>
       <a href="#certifications" class="hover:text-cyan-400">Certifications</a>
       <a href="#contact" class="hover:text-cyan-400">Contact</a>
     </div>
   </nav>
 
   <!-- Hero -->
- <section class="min-h-screen flex items-center justify-center text-center px-6 pt-24">
-    <div class="animate-pulse">
-      <h2 class="text-4xl md:text-6xl font-bold leading-tight">
-        Aspiring <span class="text-cyan-400">Software Developer</span> 
+  <section class="min-h-screen flex items-center justify-center text-center px-6 pt-24">
+    <div>
+      <h2 class="text-4xl md:text-6xl font-bold">
+        Aspiring <span class="text-cyan-400">Software Developer</span>
       </h2>
-      <h3 class="text-xl md:text-2xl mt-2 text-gray-300">
+      <h3 class="text-xl mt-2 text-gray-300">
         Java Developer | Python & C | AI | Data Analytics | Cloud Enthusiast
       </h3>
       <p class="mt-4 text-gray-400 max-w-2xl mx-auto">
-        Passionate about building intelligent systems, solving real-world problems, and delivering data-driven solutions using Java, Python , C , AI and modern web technologies.
+        Passionate about building intelligent systems, solving real-world problems, and delivering data-driven solutions.
       </p>
-
-      <div class="mt-6 flex justify-center gap-4">
-        <a href="#projects" class="px-6 py-2 bg-cyan-500 rounded-full hover:bg-cyan-600 transition">View Projects</a>
-        <a href="#contact" class="px-6 py-2 border border-cyan-400 rounded-full hover:bg-cyan-500/20 transition">Contact</a>
-      </div>
     </div>
   </section>
 
   <!-- About -->
   <section id="about" class="py-16 px-8 max-w-4xl mx-auto">
     <h3 class="text-3xl font-bold text-cyan-400 mb-4">About Me</h3>
-    <p class="text-gray-300 leading-relaxed">
-      I am a highly motivated individual passionate about software development, AI/ML, and data analytics. I enjoy building real-world solutions, solving problems, and continuously improving my technical skills through projects and internships.
+    <p class="text-gray-300">
+      I am a highly motivated individual passionate about software development, AI/ML, and data analytics.
     </p>
   </section>
 
   <!-- Skills -->
   <section id="skills" class="py-16 px-8 bg-black/30">
     <h3 class="text-3xl font-bold text-center text-cyan-400 mb-10">Skills</h3>
-    <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto text-gray-200">
-      <div><h4 class="font-bold text-white">Programming</h4><p>Java,Python,C,JavaScript</p></div>
-      <div><h4 class="font-bold text-white">Web Technology</h4><p>React.js, Node.js</p></div>
-      <div><h4 class="font-bold text-white">Data</h4><p>Power BI, SQL</p></div>
-      <div><h4 class="font-bold text-white">AI/Cloud</h4><p>Machine Learning, Azure,Microsoft Copilot,Cloud Administration</p></div>
+    <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+      <div><b>Programming:</b> Java, Python, C, JavaScript</div>
+      <div><b>Web:</b> React.js, Node.js</div>
+      <div><b>Data:</b> Power BI, SQL</div>
+      <div><b>AI/Cloud:</b> ML, Azure</div>
     </div>
   </section>
 
@@ -65,17 +61,12 @@
   <section id="internships" class="py-16 px-8">
     <h3 class="text-3xl font-bold text-center text-cyan-400 mb-10">Internships</h3>
     <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-
-      <div class="bg-gray-800 p-5 rounded-xl shadow hover:scale-105 transition">
-        <h4 class="text-cyan-300 font-bold">Microsoft – Power BI Internship</h4>
-        <p class="text-gray-300 mt-2">Worked on data visualization, dashboards, and business analytics using Power BI.</p>
+      <div class="bg-gray-800 p-5 rounded-xl">
+        Microsoft – Power BI Internship
       </div>
-
-      <div class="bg-gray-800 p-5 rounded-xl shadow hover:scale-105 transition">
-        <h4 class="text-cyan-300 font-bold">Test Yantra – Web Intern</h4>
-        <p class="text-gray-300 mt-2">Learned frontend & backend basics and real-world web application flow.</p>
+      <div class="bg-gray-800 p-5 rounded-xl">
+        Test Yantra – Web Intern
       </div>
-
     </div>
   </section>
 
@@ -83,153 +74,64 @@
   <section id="projects" class="py-16 px-8 bg-black/30">
     <h3 class="text-3xl font-bold text-center text-cyan-400 mb-10">Projects</h3>
     <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+      <div class="bg-gray-800 p-5 rounded-xl">Music App</div>
+      <div class="bg-gray-800 p-5 rounded-xl">Power BI Dashboard</div>
+    </div>
+  </section>
 
-      <div class="bg-gray-800 p-5 rounded-xl shadow hover:scale-105 transition">
-        <h4 class="text-white font-bold">Music Application</h4>
-        <p class="text-gray-300 mt-2"><b>Problem:</b> Lack of a simple and user-friendly music management system.</p>
-        <p class="text-gray-300"><b>Solution:</b> Developed a responsive music application with playlist creation and navigation features using web technologies.</p>
-        <p class="text-gray-300"><b>Result:</b> Improved user experience with smooth music browsing and efficient playlist handling.</p>
+  <!-- Research -->
+  <section id="research" class="py-16 px-8">
+    <h3 class="text-3xl font-bold text-center text-cyan-400 mb-10">Research Papers</h3>
+
+    <div class="max-w-5xl mx-auto space-y-6">
+
+      <div class="bg-gray-800 p-5 rounded-xl">
+        <button onclick="togglePaper('p1')" class="w-full text-left font-bold">
+          EV Range Prediction using AI ▼
+        </button>
+        <div id="p1" class="hidden mt-3">
+          <p>Predict EV range using ML.</p>
+          <a href="EV_paper.pdf">View PDF</a>
+        </div>
       </div>
 
-      <div class="bg-gray-800 p-5 rounded-xl shadow hover:scale-105 transition">
-        <h4 class="text-white font-bold">Power BI Sales Analysis</h4>
-        <p class="text-gray-300 mt-2"><b>Problem:</b> Difficulty in analyzing and interpreting raw sales data for decision making.</p>
-        <p class="text-gray-300"><b>Solution:</b> Built an interactive Power BI dashboard with KPIs, filters, and visual insights.</p>
-        <p class="text-gray-300"><b>Result:</b> Enabled better data-driven decisions through clear visualization of sales trends and performance metrics.</p>
+      <div class="bg-gray-800 p-5 rounded-xl">
+        <button onclick="togglePaper('p2')" class="w-full text-left font-bold">
+          Physics Informed Neural Networks ▼
+        </button>
+        <div id="p2" class="hidden mt-3">
+          <p>AI + Physics model.</p>
+          <a href="Physics_Informed_Neural_Networks.pdf">View PDF</a>
+        </div>
       </div>
 
     </div>
   </section>
-
 
   <!-- Certifications -->
   <section id="certifications" class="py-16 px-8">
-    <h3 class="text-3xl font-bold text-center text-cyan-400 mb-10">Certifications</h3>
-    <ul class="max-w-4xl mx-auto space-y-3 text-gray-200">
-
-      <li class="bg-gray-800 p-3 rounded hover:bg-gray-700">
-        Python for Data Science - <a class="text-cyan-400 hover:underline" href="Python for Data Science.pdf">View Certificate</a>
-      </li>
-
-      <li class="bg-gray-800 p-3 rounded hover:bg-gray-700">
-        Power BI & Data Visualization - <a class="text-cyan-400 hover:underline" href="certificate (1).pdf">View Certificate</a>
-      </li>
-
-      <li class="bg-gray-800 p-3 rounded hover:bg-gray-700">
-        Machine Learning Intro - <a class="text-cyan-400 hover:underline" href="Introduction to Machine Learning.pdf">View Certificate</a>
-      </li>
-
-      <li class="bg-gray-800 p-3 rounded hover:bg-gray-700">
-        AI & ML Fundamentals - <a class="text-cyan-400 hover:underline" href="certificate (4).pdf">View Certificate</a>
-      </li>
-
-      <li class="bg-gray-800 p-3 rounded hover:bg-gray-700">
-        Microsoft Azure - <a class="text-cyan-400 hover:underline" href="certificate (2).pdf">View Certificate</a>
-      </li>
-
-      <li class="bg-gray-800 p-3 rounded hover:bg-gray-700">
-        Cloud Engineering - <a class="text-cyan-400 hover:underline" href="certificate (3).pdf">View Certificate</a>
-      </li>
-
-      <li class="bg-gray-800 p-3 rounded hover:bg-gray-700">
-        Web Development - <a class="text-cyan-400 hover:underline" href="Screenshot 2026-05-01 030907.pdf">View Certificate</a>
-      </li>
-
+    <h3 class="text-3xl text-center text-cyan-400 mb-10">Certifications</h3>
+    <ul class="max-w-4xl mx-auto space-y-3">
+      <li>Python - <a href="#">View</a></li>
+      <li>Power BI - <a href="#">View</a></li>
     </ul>
   </section>
 
-  <!-- Research Papers -->
-<section id="research" class="py-16 px-8">
-  <h3 class="text-3xl font-bold text-center text-cyan-400 mb-10">Research Papers</h3>
-
-  <div class="max-w-5xl mx-auto space-y-6">
-
-    <!-- Paper 1 -->
-    <div class="bg-gray-800 p-5 rounded-xl shadow">
-
-      <!-- Clickable Title -->
-      <button onclick="togglePaper('paper1')" 
-              class="w-full text-left text-white font-bold text-lg hover:text-cyan-400">
-        EV Range Prediction using AI (Linear Regression) ▼
-      </button>
-
-      <!-- Hidden Content -->
-      <div id="paper1" class="hidden mt-4 text-gray-300">
-
-        <p class="mb-3">
-          This research focuses on predicting EV range using Linear Regression based on 
-          battery capacity, speed, temperature, and driving conditions.
-        </p>
-
-        <h4 class="text-cyan-300 font-semibold">Methodology</h4>
-        <ul class="list-disc pl-5 mb-3">
-          <li>Data collection and preprocessing</li>
-          <li>Feature selection</li>
-          <li>Linear Regression model implementation</li>
-          <li>Model training and evaluation</li>
-        </ul>
-
-        <h4 class="text-green-400 font-semibold">Outcome</h4>
-        <p class="mb-3">
-          The model predicts EV range with good accuracy and helps in route planning, 
-          battery optimization, and reducing range anxiety.
-        </p>
-
-        <!-- PDF LINK -->
-        <a href="EV_paper.pdf" target="_blank"
-           class="text-cyan-400 hover:underline">
-          📄 View Full Paper
-        </a>
-
-      </div>
-    </div>
-
-    <!-- Paper 2 -->
-    <div class="bg-gray-800 p-5 rounded-xl shadow">
-
-      <button onclick="togglePaper('paper2')" 
-              class="w-full text-left text-white font-bold text-lg hover:text-cyan-400">
-        Physics Informed Neural Networks ▼
-      </button>
-
-      <div id="paper2" class="hidden mt-4 text-gray-300">
-
-        <p class="mb-3">
-          This research explores combining physics laws with neural networks to improve 
-          prediction accuracy and model reliability.
-        </p>
-
-        <h4 class="text-cyan-300 font-semibold">Key Idea</h4>
-        <ul class="list-disc pl-5 mb-3">
-          <li>Integrates physics constraints into AI models</li>
-          <li>Reduces dependency on large datasets</li>
-          <li>Improves generalization</li>
-        </ul>
-
-        <a href="Physics_Informed_Neural_Networks.pdf" target="_blank"
-           class="text-cyan-400 hover:underline">
-          📄 View Full Paper
-        </a>
-
-      </div>
-    </div>
-
-  </div>
-</section>
-
   <!-- Contact -->
   <section id="contact" class="py-16 px-8 text-center">
-    <h3 class="text-3xl font-bold text-cyan-400 mb-6">Contact</h3>
-    <p>Email: <span class="text-gray-300">sriharinimuthukumar2005@gmail.com</span></p>
-    <p>GitHub: <span class="text-gray-300">https://github.com/har-318</span></p>
-    <p>LinkedIn: <span class="text-gray-300">https://www.linkedin.com/in/sri-harini-m-4b31a5341</span></p>
+    <h3 class="text-3xl text-cyan-400 mb-6">Contact</h3>
+    <p>Email: sriharinimuthukumar2005@gmail.com</p>
+    <p>GitHub: github.com/har-318</p>
+    <p>LinkedIn: linkedin.com/in/sri-harini</p>
   </section>
 
-  <footer class="text-center p-4 text-gray-500">
-    © 2026 Sri Harini M
-  </footer>
+  <!-- Script -->
+  <script>
+    function togglePaper(id) {
+      const el = document.getElementById(id);
+      el.classList.toggle("hidden");
+    }
+  </script>
 
 </body>
 </html>
-
-
