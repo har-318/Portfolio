@@ -29,10 +29,10 @@
         Aspiring <span class="text-cyan-400">Software Developer</span> 
       </h2>
       <h3 class="text-xl md:text-2xl mt-2 text-gray-300">
-        Java Developer | AI | Data Analytics | Cloud Enthusiast
+        Java Developer | Python & C | AI | Data Analytics | Cloud Enthusiast
       </h3>
       <p class="mt-4 text-gray-400 max-w-2xl mx-auto">
-        Passionate about building intelligent systems, solving real-world problems, and delivering data-driven solutions using AI and modern web technologies.
+        Passionate about building intelligent systems, solving real-world problems, and delivering data-driven solutions using Java, Python , C , AI and modern web technologies.
       </p>
 
       <div class="mt-6 flex justify-center gap-4">
@@ -137,6 +137,85 @@
 
     </ul>
   </section>
+
+  <!-- Research Papers -->
+<section id="research" class="py-16 px-8">
+  <h3 class="text-3xl font-bold text-center text-cyan-400 mb-10">Research Papers</h3>
+
+  <div class="max-w-5xl mx-auto space-y-6">
+
+    <!-- Paper 1 -->
+    <div class="bg-gray-800 p-5 rounded-xl shadow">
+
+      <!-- Clickable Title -->
+      <button onclick="togglePaper('paper1')" 
+              class="w-full text-left text-white font-bold text-lg hover:text-cyan-400">
+        EV Range Prediction using AI (Linear Regression) ▼
+      </button>
+
+      <!-- Hidden Content -->
+      <div id="paper1" class="hidden mt-4 text-gray-300">
+
+        <p class="mb-3">
+          This research focuses on predicting EV range using Linear Regression based on 
+          battery capacity, speed, temperature, and driving conditions.
+        </p>
+
+        <h4 class="text-cyan-300 font-semibold">Methodology</h4>
+        <ul class="list-disc pl-5 mb-3">
+          <li>Data collection and preprocessing</li>
+          <li>Feature selection</li>
+          <li>Linear Regression model implementation</li>
+          <li>Model training and evaluation</li>
+        </ul>
+
+        <h4 class="text-green-400 font-semibold">Outcome</h4>
+        <p class="mb-3">
+          The model predicts EV range with good accuracy and helps in route planning, 
+          battery optimization, and reducing range anxiety.
+        </p>
+
+        <!-- PDF LINK -->
+        <a href="EV_paper.pdf" target="_blank"
+           class="text-cyan-400 hover:underline">
+          📄 View Full Paper
+        </a>
+
+      </div>
+    </div>
+
+    <!-- Paper 2 -->
+    <div class="bg-gray-800 p-5 rounded-xl shadow">
+
+      <button onclick="togglePaper('paper2')" 
+              class="w-full text-left text-white font-bold text-lg hover:text-cyan-400">
+        Physics Informed Neural Networks ▼
+      </button>
+
+      <div id="paper2" class="hidden mt-4 text-gray-300">
+
+        <p class="mb-3">
+          This research explores combining physics laws with neural networks to improve 
+          prediction accuracy and model reliability.
+        </p>
+
+        <h4 class="text-cyan-300 font-semibold">Key Idea</h4>
+        <ul class="list-disc pl-5 mb-3">
+          <li>Integrates physics constraints into AI models</li>
+          <li>Reduces dependency on large datasets</li>
+          <li>Improves generalization</li>
+        </ul>
+
+        <a href="Physics_Informed_Neural_Networks.pdf" target="_blank"
+           class="text-cyan-400 hover:underline">
+          📄 View Full Paper
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+</section>
 
   <!-- Contact -->
   <section id="contact" class="py-16 px-8 text-center">
